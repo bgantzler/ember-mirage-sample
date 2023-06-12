@@ -1,7 +1,15 @@
 # ember-mirage-sample
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Example of using MirageJS with ember
+
+Install MirageJS
+`yarn add miragejs`
+
+Create a Mirage Server for your tests
+
+* create a directory `test-support` in the `tests` directory
+* create a directory `mirage` in the `test-support` directory you just created
+* create a file named `setup-mirage` in the `mirage` directory
 
 ## Prerequisites
 
