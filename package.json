@@ -42,6 +42,7 @@
     "ember-data": "~4.9.1",
     "ember-fetch": "^8.1.2",
     "ember-load-initializers": "^2.1.2",
+    "ember-mirage": "git+https://github.com/bgantzler/ember-mirage#stripped-down",
     "ember-page-title": "^7.0.0",
     "ember-qunit": "^6.0.0",
     "ember-resolver": "^8.0.3",
@@ -54,7 +55,9 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-qunit": "^7.3.4",
+    "@faker-js/faker": "^7.6.0",
     "loader.js": "^4.7.0",
+    "miragejs": "^0.1.47",
     "prettier": "^2.8.1",
     "qunit": "^2.19.3",
     "qunit-dom": "^2.0.0",
@@ -67,6 +70,6 @@
     "edition": "octane"
   },
   "dependencies": {
-    "miragejs": "^0.1.46"
+    "miragejs": "^0.1.47"
   }
 }
